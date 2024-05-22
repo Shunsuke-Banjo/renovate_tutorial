@@ -1,7 +1,7 @@
 
 name: Update Labels
 on:
-  push:
+  pull_request:
     branches: [ main ]
 jobs:
   label:
